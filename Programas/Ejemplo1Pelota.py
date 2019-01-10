@@ -10,4 +10,4 @@ g = 9.81
 t = 5
 y = v0*t - 1.0/2*g*t**2
 print y
-print y
+
