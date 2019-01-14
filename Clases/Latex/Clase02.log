@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2019.1.13)  14 JAN 2019 15:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2019.1.13)  14 JAN 2019 16:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -428,29 +428,6 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-! Undefined control sequence.
-<recently read> \graphicspath 
-                              
-l.5 \graphicspath
-                 {{Imagenes/}}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 \graphicspath{{I
-                    magenes/}}
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 (./Clase02.aux)
 \openout1 = `Clase02.aux'.
 
@@ -483,31 +460,22 @@ LaTeX Font Info:    ... okay on input line 11.
 ) [1
 
 {/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}]
-! Undefined control sequence.
-l.14 		\includegraphics
-                       [scale=0.40]{1.png}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[2] (./Clase02.aux) ) 
+(./Clase02.aux) ) 
 Here is how much of TeX's memory you used:
- 2289 strings out of 494941
- 26311 string characters out of 6180918
- 86130 words of memory out of 5000000
- 5613 multiletter control sequences out of 15000+600000
+ 2288 strings out of 494941
+ 26299 string characters out of 6180918
+ 85121 words of memory out of 5000000
+ 5612 multiletter control sequences out of 15000+600000
  5601 words of font info for 21 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  27i,7n,35p,230b,199s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-17.pfb>
-Output written on Clase02.pdf (2 pages, 24140 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.p
+fb>
+Output written on Clase02.pdf (1 page, 22380 bytes).
 PDF statistics:
- 19 PDF objects out of 1000 (max. 8388607)
- 12 compressed objects within 1 object stream
+ 16 PDF objects out of 1000 (max. 8388607)
+ 10 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
