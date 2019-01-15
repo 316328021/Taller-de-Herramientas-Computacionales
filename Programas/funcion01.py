@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 def vAbsoluto(x):
 	if x>=0:
 		return(x)
@@ -10,20 +11,23 @@ def raiz(x):
         while vAbsoluto(b-h)>e:
                 h = (b+h)/2
                 b = x/h
-        return (b) #Se puede cualquiera de los dos, b o h, ya que son similares
+                return (b) #Se puede cualquiera de los dos, b o h, ya que son similares
+
 def raiz1(x):
         h=x
         b=1.0
         e=0.0001
+        i=0 #Cuenta el número de veces que se ejecuta el ciclo
         while vAbsoluto(b-h)>e:
                 h = (b+h)/2
                 b = x/h
-                print b
+                i=i+1
+        print"El ciclo se repitió %d veces"% (i)
         return (b)
 
-print raiz(1)
-print raiz(4)
-print raiz(9)
-print raiz(9.1)
-print raiz(1000000)
+print raiz1(1)
+print raiz1(4)
+print raiz1(9)
+print raiz1(9.1)
+print raiz1(1000000)
 
