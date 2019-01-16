@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2019.1.13)  15 JAN 2019 22:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2019.1.13)  15 JAN 2019 23:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Clase04.tex
-(./Clase04.tex
+**Clase05.tex
+(./Clase05.tex
 LaTeX2e <2017-04-15>
 Babel <3.9r> and hyphenation patterns for 3 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -449,8 +449,8 @@ Package graphics Info: Driver file: pdftex.def on input line 96.
 \Gin@req@height=\dimen112
 \Gin@req@width=\dimen113
 )
-(./Clase04.aux)
-\openout1 = `Clase04.aux'.
+(./Clase05.aux)
+\openout1 = `Clase05.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
@@ -540,19 +540,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
-[2] (./Clase04.aux) ) 
+[2] (./Clase05.aux) ) 
 Here is how much of TeX's memory you used:
- 2854 strings out of 494941
- 35718 string characters out of 6180918
+ 2856 strings out of 494941
+ 35734 string characters out of 6180918
  100897 words of memory out of 5000000
- 6128 multiletter control sequences out of 15000+600000
+ 6130 multiletter control sequences out of 15000+600000
  5900 words of font info for 22 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 39i,7n,35p,328b,199s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,7n,35p,840b,199s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
 17.pfb>
-Output written on Clase04.pdf (2 pages, 43468 bytes).
+Output written on Clase05.pdf (2 pages, 44421 bytes).
 PDF statistics:
  21 PDF objects out of 1000 (max. 8388607)
  12 compressed objects within 1 object stream
