@@ -1,0 +1,74 @@
+\documentclass{book}
+%\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+%\usepackage{biblatex}
+\usepackage{hyperref}
+
+\title{Taller de Herramientas Computaionales}
+\author{Brenda Paola García Rivas}
+\date{17.01.19}
+
+\begin{document}
+\maketitle
+%Aquí inicia el índice del contenido del texto
+\tableofcontents
+\section*{Introducción} Este libro es para fortalecer el conocimiento de la materia taller de herramientas computacionales.
+\url{www.google.com}
+\hyperref[Google]{www.google.com}
+
+\chapter{Uso básico de Linux}
+\section{Distribuciones de Linux}
+\section{Comandos}
+\chapter{Introducción a LaTeX}
+\chapter{Introducción a Python}
+
+\begin{verbatim}
+#!/usr/bin/python2.7    
+# -*- coding: utf-8 -*-
+"""
+Brenda Paola García Rivas
+316328021
+Taller de Herramientas Computacionales
+Lo que se nos explicó el miércoles de la segunda semana
+"""
+x = 10.5;y = 1.0/3;z = 15.3
+#x,y,z = 10.5, 1.0/3, 15.3  Otra forma de ponerlo 
+H = """
+El punto en R3 es:
+(x,y,z)=(%.2f,%g,%G)
+""" % (x,y,z)
+print H
+
+G="""
+El punto en R3 es:
+(x,y,z)=({laX:.2f},{laY:g},{laZ:G}
+""".format(laX=x,laY=y,laZ=z)
+
+print G
+
+import math as m
+from math import sqrt
+from math import sqrt as s
+from math import * #Sirve pero no se recomienda su uso
+x=16
+x=input ("Cuál es el valor al que le quieres calcular la raiz")
+print "La raiz cuadrada de %.2f es %f" %(x,m.sqrt(x))
+print sqrt(16.5)
+print s(16.5)
+\end{verbatim}
+
+%\input{/home/brendagarcia/Descargas/TallerdeHerramientasComputacionales/Clases/Latex/Prueba.py}
+\input{Prueba.py}
+
+%Aquí inician los capítulos del libro
+\chapter{Introducción a LaTeX}
+\chapter{Introducción a Python}
+\section{Orientación a Objetos}
+
+\begin{thebibliography}{9}
+%\bibitem{Computación}
+Autor blah blah blah 
+%\textit{Cualquier cosa}
+blah blah blah 2019
+\end{thebibliography}
+\end{document}

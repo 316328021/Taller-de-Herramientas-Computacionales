@@ -16,6 +16,88 @@
 	\end{center}
 	\newpage
 	\title{Mi segunda clase de T.C.H :)\\}
-	En este día se vieron varios temas, pero uno del que quisiera hacer énfasis es el de 
-	
+	La clase se inició viendo otros más comandos para una computadora, algunos de éstos son:
+	\begin{enumerate}
+		\item 
+		top. Este comando carga información sobre la computadora, CPU. En cuanto se usa este comando aparecerá la actividad general que tiene la computadora en tiempo real. Cabe mencionar que para salir de este modo, únicamente se necesita presionar "a".
+		\item 
+		cd/. Se usa para buscar un directorio desde la raíz. Después de la diagonal se pueden usar otros comandos como:
+		\begin{enumerate}
+			\item 
+			lib64. Qu se encarga de buscar las bibliotecas de 64 bits
+			\item 
+			lib. Busca en las bibliotecas
+			\item 
+			home. Se usa para usuarios
+			\item 
+			media. Se usa para la USB o CD
+			\item 
+			mnt. Busca los discos externos y discos duros
+			\item 
+			. Se vuelve el directorio anterior
+			\item 
+			.. Vuelve al directorio anteanterior
+		\end{enumerate}
+		ls "nombre del directorio". Muestra el contenido del directorio.
+		\item
+	 	df -lh. Muestra que parte del disco duro se puede utilizar
+	 	\item 
+	 	set. Muestra todas las actividades del entorno
+	 	\item 
+	 	set I less. Pagina, ya que "set" sólo los muetra como lista
+	 	\item 
+	 	less "archivo". Muestra el contenido de algún archivo paginado
+	 	\item 
+	 	file "archivo". Dspeja los archivos de otro archivo o de un directorio
+	\end{enumerate}
+	Además de estos comandos se aprendió cómo usar Github a partir de una terminal, para esto se usan los siguientes comandos:
+	\begin{enumerate}
+		\item 
+		Primero, se tiene que instar colocando los comandos en el siguiente órden:
+		\begin{enumerate}
+			\item 
+			git int
+			\item 
+			sudo apt-get upgrade
+			\item 
+			sudo apt-get install git (nota: en fedora en lugar de get es dnf)
+		\end{enumerate}
+		\item 
+		Para cargar la cuenta de github a cualquier máquia se usan los siguenetes comandos en este orden(Para este paso ya se debe tener una cuenta en la página)
+		\begin{enumerate}
+			\item 
+			git config --global user.name "aquí se pone el nombre del usuario"
+			\item 
+			git config --global user.email "aquí se pone el email"
+			\item 
+			cd "Nombre del directorio donde se quiere clonar la información"
+			\item 
+			git clone "url del repositorio"
+			\item
+			cd "nombre del repositorio"
+			\item 
+			git add * (este añade los últimos archivos modificados)
+			\item 
+			git commit (En este momento se tiene que hacer un comantario que aparecerá en el repositorio) Despues de escribir el comentario se debe hacer lo siguiente para procegir con la actualización de los documentos:
+			\begin{enumerate}
+				\item 
+				Se escribe el comentario
+				\item
+				Se pulsa la tecla: esc
+				\item
+				Se colocan las letas "wq" 
+				\item 
+				Se da enter
+			\end{enumerate}
+			\item 
+			git push  (sube los cambios del documento)
+			\item 
+			"User name"
+			\item 
+			"password"
+			\item
+			git status (se ve el estado del árbol, este último paso no es necesario)
+	\end{enumerate}
+	Nota: si únicamente se desea actualizar los datos, es decir, no clonar los archivos se omite el paso 4 y se sustituye por un: git status
+\end{enumerate}
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2019.1.13)  14 JAN 2019 22:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2019.1.13)  20 JAN 2019 21:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -536,22 +536,27 @@ Package pdftex.def Info: Imagenes/1.png used on input line 15.
 
 {/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map} <./Imagenes/
 1.png>]
-[2] (./Clase02.aux) ) 
+Overfull \hbox (3.12926pt too wide) in paragraph at lines 66--67
+[]\OT1/cmr/m/n/12 Para car-gar la cuenta de github a cualquier m^^Saquia se usa
+n los siguenetes
+ []
+
+[2] [3] (./Clase02.aux) ) 
 Here is how much of TeX's memory you used:
- 2852 strings out of 494941
- 35702 string characters out of 6180918
- 99895 words of memory out of 5000000
- 6126 multiletter control sequences out of 15000+600000
+ 2855 strings out of 494941
+ 35726 string characters out of 6180918
+ 103895 words of memory out of 5000000
+ 6129 multiletter control sequences out of 15000+600000
  5900 words of font info for 22 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 39i,7n,35p,233b,199s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-17.pfb>
-Output written on Clase02.pdf (2 pages, 40137 bytes).
+ 39i,7n,35p,274b,224s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr17.pfb>
+Output written on Clase02.pdf (3 pages, 47945 bytes).
 PDF statistics:
- 21 PDF objects out of 1000 (max. 8388607)
- 12 compressed objects within 1 object stream
+ 24 PDF objects out of 1000 (max. 8388607)
+ 14 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
