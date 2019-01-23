@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2019.1.13)  19 JAN 2019 13:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2019.1.13)  22 JAN 2019 22:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -536,31 +536,33 @@ Package pdftex.def Info: Imagenes/1.png used on input line 15.
 
 {/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map} <./Imagenes/
 1.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 19.
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 20.
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 19.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 20.
  [2] (./Clase09.aux) ) 
 Here is how much of TeX's memory you used:
- 2890 strings out of 494941
- 36200 string characters out of 6180918
+ 2886 strings out of 494941
+ 36155 string characters out of 6180918
  99821 words of memory out of 5000000
- 6153 multiletter control sequences out of 15000+600000
- 8253 words of font info for 30 fonts, out of 8000000 for 9000
+ 6150 multiletter control sequences out of 15000+600000
+ 7648 words of font info for 28 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 39i,7n,35p,686b,199s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,7n,35p,685b,199s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Clase09.pdf (2 pages, 71517 bytes).
+s/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Clase09.pdf (2 pages, 62676 bytes).
 PDF statistics:
- 33 PDF objects out of 1000 (max. 8388607)
- 21 compressed objects within 1 object stream
+ 29 PDF objects out of 1000 (max. 8388607)
+ 18 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

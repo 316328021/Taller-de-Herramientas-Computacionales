@@ -1,0 +1,45 @@
+\documentclass{article}
+\usepackage{xcolor}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\graphicspath{{Imagenes/}}
+
+\title{\huge \color{red}Taller de Herramientas Computacionales}
+\author{Brenda Paola García Rivas}
+\date{17.01.19}
+
+\begin{document}
+	\maketitle
+	\begin{center}
+		\includegraphics[scale=1.0]{1.png}
+	\end{center}
+
+	\newpage
+	\title{\huge Viernes 18.01.19}\\
+	
+	La clase inició retomando un ejercicio de la tarea 4. Este consistía en tratar de convertir los grados C a grados F; debo decirlo que, cuando yo hice este problema lo que usé fue la fórmula para convertir de grados C a F qeu encontré en internet, utilicé un "imput" para que pudiera visualizarse una pregunta en python shell, y únicamente sólo coloqué la fórmula.
+	
+	En su lugar, el profesor, nos mostró una manera más fácil y cool. 
+	Nos dijo: ¿Qué pasaría si nosotros queremos saber los grados de cinco en cinco, del -20 grados a los 30 grados?
+	
+	\begin{verbatim} %Sirve para colocar 
+	programas de python
+		C=-20  #Empieza en -20
+		iC=5 #Se coloca 5 porque se quiere hacer cada 5 grados
+		while C <= 40:
+		F = (9.0/5) * C +32
+		print C, F
+		C = C + iC #Esto es una asignación porque lo que está a la derecha se evalua y 
+		lo que está a la izquierda se almacena
+		#C +=iC    Otra forma de escribirlo. Al valor almacendo de C, agrega el valor de iC
+	\end{verbatim}
+	
+	Además de esto se vió cómo hacer un libro en LaTeX, la verdad este tema me gustó bastante pues, me pareció dominarlo bastante bien :)
+	Se inicia colocando el tipo de texto, anteriormente se ponía "article", sin embargo, ahora se colocará "book"; se usaran otras cosas como los usepakage (ya se han visto anteriormente).
+	Además de esto, se al iniciar el documento se debe colocar la palabra "chapter" y delante de esta una diagonal, como es de costumbre, esto no sindicará que es un nuevo capítulo.
+	Cada "chapter" viene seguido de su corchete para poder colocar el título.
+	Si se desea, colocar un subcapítulo basta con usar "section" debajo del capítulo que se está viendo.
+	
+	Además se aprendió como colocar una bibliografía y cabe añadir que se pudo ver cómo colocar un programa hecho en python; para este último caso se tuvo que usar "begin\{verbatim\}" 
+\end{document}

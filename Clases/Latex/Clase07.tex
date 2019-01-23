@@ -15,7 +15,7 @@
 		\includegraphics[scale=1.0]{1.png}
 	\end{center}
 	\newpage
-	\title{Martes 15, Séptima clase\\}
+	\title{\huge Martes 15, Séptima clase\\}
 	Hoy en la clase se retomó un ejercicio del día anterior, que consistía en un rectángulo de área x, con base=1 y altura x. El problema que se nos presentó era hacer que ese rectángulo tuviese sus lados de un tamaño muy similar, como convertirlo en cuadrado.
 	Así mismo durante la clase anterior se nos explicó como obtener las fórmulas para usarlos en nuestro programa para que el día de hoy pudieramos usarlas. Se nos introdujo cómo y en qué momentos se debe hacer uso de "while" en python, y hacer uso de este último acompañado de un "return" el cuál ya se había visto en clases anteriores.
 	Además de aprender eso, cómo contar el número de veces que se ejecuta una acción dentro de "while", para esto se utilizó "i". Para poder usarlo adecuadamente hay que tener en cuenta lo siguiente:
@@ -27,5 +27,21 @@
 		\item 
 		Además debemos ver que cada vez que se ejecuta un ciclo, entonces se le va a sumar un ciclo a la función, por tanto se debe poner "i=i+1"
 	\end{enumerate}
-	 Además de esto, támbien se aprendió 
-\end{document}
+	 Además de esto, támbien se nos puso un reto en clase que debiamos hacer en equipo, esto se me hiso un método de enseñaza bastante divertido, porque nos dejaba pensar cómo resolver el problema.El problema consistía en identificar si un numero era par o impar dado que si es par, entonces x/2 es entero, y es impar si 3x*2 es entero; dado que x sea un entero. Ete ejercicio es llamado Ulam
+	 Se hace una funcion la cuálregrese un valor que depende de si es par o es impar, pero...¿cómo sabemos que es par? pues, si nosotros utilizamos la división entera y el resultado se multiplica por dos y da lo mismo que al principio, entonces es un número par, si al número le falta algo, entonces es impar.
+	 A partir de esta idea podemos ocuper un "if" que diga que si el resultado de x/2*2 es igual a 0 entonces se regresa x/2 que es par.
+	 Ahora, si no es par, entonces se usa un "else" para regresar 3x*2 (ya que es impar).
+	 
+	 Despues de esto, debemos seguir calculando hasta que el último valor sea uno, es decir, debemos seguir calculando hasta que el valor sea igual a 1; para esto se necesita usar un "while".
+	 Mientras la x sea mayor o igual a 1, es igual a la función que se definió antes.
+	 
+	 También se aprendieron nuevos comandos para LaTeX. Casi al finalizar la clase se vieron algunos comandos para trabajar en Latex, debido al poco tiempo tuvimos que apresurarnos; se vió que:
+	 \begin{enumerate}
+	 	\item 
+	 	Cómo se puede centrar texto en Latex. Esto se puede lograr fácilmente si colocamos un "begin{center}
+	 	\item 
+	 	¿Para qué sirve poner huge? Este sólo le da mejor aspecto a los tiítulos. Los hace más grandes.
+	 	\item 
+	 	¿Cómo puedo hacer secciones? En esta clase también se nos mostró cómo hacer subsecciones; para esto, solo basta con poner diagonal section{Título de la section}, algo importante en este tema es que si despues de la palabra "section" colocas un "*"  enumerará las secciones
+	 \end{enumerate}
+ 	\end{document}

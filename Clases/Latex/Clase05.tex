@@ -50,8 +50,19 @@
 	\end{enumerate}
 	
 	Hoy se aprendió cómo se usa Texstudio, primero se debe poner que tipo de documento se usará, pues en LaTex ya hay tipo planillas que le dan un formato al documento, después de colocar esto, se especificará que paquetes se usarán, ya que si no se colocan y después se quieren usar no se podrá. Existen paquetes como:
-
-	después se coloca el título, autor y la fecha. Para iniciar el documento se usa la palabra "begin", depues se colocará la palabra "maketitle" que es lo que pondrá el título en su lugar junto con los demás datos proporcionados. Cabe añadir que si se desea colocar una imagen, entonces se tiene que poner el archivo donde se guardó en los usepackage, por ejemplo si la imahen está guardada en el archivo con nombre imagenes entonces se debe colocar "graphicspath{{Imagenes/}}" y despues después de iniciar el documento se colocará "includegraphics[escala deseada]{nombre de la imagen que se guardó en el archivo}. Después de esto, para poder colocar una nueva página se usa el comando "newpage". He de añadir que se deben usar "\" antes de cada comando, ya que si no se pone se leerá que hay un error. 
+	\begin{enumerate}
+		\item
+		usepackage{xcolor}. Se usa para que se puedan cambiar las letras a otro color
+		\item
+		usepackage[utf8]{inputenc}. Con este se validan los acentos
+		\item
+		usepackage{amsmath}. Se usa para símbolos
+		\item
+		usepackage{graphicx}. 
+		\item
+		graphicspath{{aquí va la carpeta donde está la imágen/}}. Se usa para colocar imágenes
+	\end{enumerate}
+	Después se coloca el título, autor y la fecha. Para iniciar el documento se usa la palabra "begin", depues se colocará la palabra "maketitle" que es lo que pondrá el título en su lugar junto con los demás datos proporcionados. Cabe añadir que si se desea colocar una imagen, entonces se tiene que poner el archivo donde se guardó en los usepackage, por ejemplo si la imahen está guardada en el archivo con nombre imagenes entonces se debe colocar "graphicspath{{Imagenes/}}" y despues después de iniciar el documento se colocará "includegraphics[escala deseada]{nombre de la imagen que se guardó en el archivo}. Después de esto, para poder colocar una nueva página se usa el comando "newpage". He de añadir que se deben usar "\" antes de cada comando, ya que si no se pone se leerá que hay un error. 
 	
 	Una vez teniendo en cuenta estas especificaciones, se puede iniciar la redacción del artículo. 
 \end{document}
