@@ -33,5 +33,25 @@
 		\item 
 		Definirlo
 	\end{enumerate}
-	Partiendo de este procedimiento, se puede visualizar el problema con mayor facilidad. Otra cosa que también se aprendió en clase fue como hacer un print con una oracion usando los signos de porcentaje y distintas letras a un lado, dependiendo de cada letra, entonces es el resultado que nos imprimirá.
+	Partiendo de este procedimiento, se puede visualizar el problema con mayor facilidad.Es importante tener claro todos estos pasos ya que la computadora hace exactamente lo que nosotros pedimos, por lo que debemos ser claros, precisos y detallados al hacer cualquier tipo de programa.
+	Por ejemplo,en el ejercicio de la pelota lo primero que hicimos fue entender que se nos decía, luego obtuvimos una fórmula y checamos que se conocieran todos los aspectos de ésta, despues delimitamos el mismo problema, evitamos los negativos, ya que no nos servían y unicamente dejamos la parte de interés.
+	
+	Otra cosa que también se aprendió en clase fue para abrir python desde la terminal se usa el comando "idle", este último abre un shell en python. Se empezó a usar python despues de haber visto el problema de la pelota hecho en el pizarron. El código que se uso en un principio fue:
+
+	\[print\ 34*3-1/2*9.81*3**2\]
+	
+	Sin embargo se descubrió que no daba el mismo resultado que salía al hacerlo en el pizarrón. Yo al principio llegué a creer que TODO EL GRUPO se había equivocado, así que hic nuevamente en los cálculos en mi cuaderno, para mi sorpresa, y según mis operaciones, la computadora estaba mal...¿eso podía ser verdad?.
+	
+	Para resolver este dilema, separamos las operaciones hasta encontrar el error. Se descubrió que el error se encontraba en la división de 1/2.
+	Pues bien, el profesor nos explicó que el resultado que python nos estaba imprimiendo era diferente porque sólo estaba contaba la divión entera; lo que hicimos para poder obtener el resultado correcto fue colocar un ".0" al denominador o al numerador de la división, esto para que python calculara la división flotante.
+	Nos quedó así:
+	
+	\[print\ 34*3-1.0/2*9.81*3**2\]
+	 Fue justamente lo que le hizo falta, pues salió el mismo resultado que al hacerlo con calculadora. 
+	 Después de esto, el profesor nos mostro una manera más sencilla de hacerlo. Primero colocamos los valores de cada variable y despues sólo ponemos la fórmula, quedando así:\\
+	v0 $ =$ 34\\
+	 g $=$ 9.81\\
+	 t $= $5\\
+	 y $=$ v0*t - 1.0/2*g*t**2\\
+	 print y\\
 \end{document}

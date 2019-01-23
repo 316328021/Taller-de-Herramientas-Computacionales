@@ -17,7 +17,40 @@
 	\newpage
 	\title{\huge Clase número 05\\}
 	
-	Hoy se aprendió cómo se usa Texstudio, primero se debe poner que tipo de documento se usará, pues en LaTex ya hay tipo planillas que le dan un formato al documento, después de colocar esto, se especificará que paquetes se usarán, ya que si no se colocan y después se quieren usar no se podrá.
+	La clase inicia con una nota acerca de las cedenas en python (las cadenas son como notas para python), hay tres formas de iniciar una cadena, las formas son: 
+	\begin{enumerate}
+		\item 
+		Usar tres comillas al inicio y al final sirve para las multicadenas. Ejemplo:	
+		\["""\]
+		\[Hola, soy\]
+		\[Brenda\ y\ estoy\]
+		\[en\ la\ clase\ de\ T.H.C.\]
+		\["""\]	
+		\item 
+		usar el signo de gato:
+		
+		\#Sólo puede usar un renglon\\
+		\#Si se necesitan más se usa otro\ de este mismo signo\\
+		\item 
+		Se usan '' al inicio y al final del texto:
+		\['Hola\ a\ todos' \]
+	\end{enumerate}
+
+	También se vieron nuevos comandos para usar números en python y facilitar nusestros cálculos. Algunos de ellos son:
+	\begin{enumerate}
+		\item 
+		\%g. Este despliega un valor en su menor formato posible
+		\item 
+		\%E, nos muestra el resultado en notacion científica
+		\item 
+		\%f. Despliega el valor como flotante
+		\item 
+		\%5.2f, despliega un número flotante con dos decimales y cinco espacios recorridos a la derecha (el cinco y el dos, pueden cambiarse al gusto)
+	
+	\end{enumerate}
+	
+	Hoy se aprendió cómo se usa Texstudio, primero se debe poner que tipo de documento se usará, pues en LaTex ya hay tipo planillas que le dan un formato al documento, después de colocar esto, se especificará que paquetes se usarán, ya que si no se colocan y después se quieren usar no se podrá. Existen paquetes como:
+
 	después se coloca el título, autor y la fecha. Para iniciar el documento se usa la palabra "begin", depues se colocará la palabra "maketitle" que es lo que pondrá el título en su lugar junto con los demás datos proporcionados. Cabe añadir que si se desea colocar una imagen, entonces se tiene que poner el archivo donde se guardó en los usepackage, por ejemplo si la imahen está guardada en el archivo con nombre imagenes entonces se debe colocar "graphicspath{{Imagenes/}}" y despues después de iniciar el documento se colocará "includegraphics[escala deseada]{nombre de la imagen que se guardó en el archivo}. Después de esto, para poder colocar una nueva página se usa el comando "newpage". He de añadir que se deben usar "\" antes de cada comando, ya que si no se pone se leerá que hay un error. 
 	
 	Una vez teniendo en cuenta estas especificaciones, se puede iniciar la redacción del artículo. 
