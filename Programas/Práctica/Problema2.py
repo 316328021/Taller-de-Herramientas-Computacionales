@@ -21,10 +21,12 @@ def suma_enteros(n):
 
     print ('R= ')
 """
-#Para que sea de forma recursiva, necesita contar con dos cosas:   
+#Para que sea de forma recursiva, necesita contar con dos cosas:
+
 def suma(n):
     if n == 0:  #Caso base
         return 0
     else:
         return n + suma(n-1)  #Regla de recursividad
-        print suma(4)
+        print suma(n)
+#print ('Numero natural: ',n,)  No puedo hacer que pregunte :(, pero sí funciona :)
