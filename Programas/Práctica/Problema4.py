@@ -5,7 +5,7 @@ No. cuenta: 316328021
 Práctica/Examen
 """
 #Problema4.Representación de una maya en python.
-
+"""
 def maya(n):
     i+=0.5  #Aumenta 0.5 cada que termina un ciclo
     if n >0 and n<5:  
@@ -16,4 +16,8 @@ def maya(n):
         return 'Está fuera de rango'
     print maya
         
-
+"""
+#Idea, Pongamos un ejemplo más pequeño
+def malla(x,y):
+    while -1<x<1 and -1<y<1:
+        
