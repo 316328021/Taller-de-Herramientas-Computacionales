@@ -1,0 +1,96 @@
+\documentclass[letterpaper, 12pt, oneside]{article}%para dar formato al documento
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage[utf8]{inputenc}
+\graphicspath{{Imagenes/}}
+
+\title{\Huge Taller de Herramientas Computacionales}
+\author{Brenda Paola García Rivas}
+\date{Mar,12 febrero 2019}
+
+\begin{document}
+	\maketitle
+	\begin{center}
+		\includegraphics[scale=1.0]{1.png}
+	\end{center}
+	
+	\newpage
+	\title {\huge Preguntas de la Segunda Semana }
+	\begin{enumerate} 
+		\item 
+		¿Qué es la recursividad en python?\\
+		La recursividad se es usada en distintos tipos de lenguajes de programación, esto, con el fin de que un problema se pueda dividir en partes más pequeñas de sí mismo para facilitar su ejecición 
+		\item 
+		¿Cuál es la estructura de la recursividad en python?\\ 
+		Para realizar algún ejercicio con python se necesita de:
+		\begin{enumerate}
+			\item 
+			CASO BASE: Caso que tiene una solución casi inmediata, por lo general es el comienzo del problema
+			\item 
+			REGLA RECURSIVA:Se usa para expresar la solución del problema del caso base
+		\end{enumerate}
+		\item 
+		Dí algunos ejemplos de problemas en los que puedas usar la recursividad.
+		\begin{enumerate}
+			\item 
+			Se puede usa para sacar el factorial
+			\item 
+			La serie de fibonacci
+			\item 
+			Imprimir los primeros n érminos de la serie binaria
+			\item 
+			Calcular la suma de numeros
+			\item 
+			En el uso de listas, puede calcular el máximo, etc.
+		\end{enumerate}
+		\item
+		¿Qué comando se usa para iniciar una presentación en Látex?\\
+		Se utiliza el comando: \textbackslash begin\{frame\} 
+		\item 
+		¿Cómo puedes elegir el diseño de la presentación?\\
+		En internet se pueden llegar a encontrar gran variedad de diseños para las presentaciones, se puede poner alguno de los siguientes comandos:
+		\begin{enumerate}
+			\item 
+			\textbackslash usetheme\{AnnArbor\}
+			\item
+			\textbackslash usetheme\{Berkeley\}
+			\item
+			\textbackslash usetheme\{CambridgeUS\}
+			\item
+			\textbackslash usetheme\{Goettingen\}
+			\item 
+			\textbackslash usetheme\{Bergen\} 
+			\item
+			\textbackslash usetheme{Darmstadt}
+			
+		\end{enumerate}
+		Cabe añadir que en el grupo nos sorprendió un poco que bastantes de los diseños son de color azul.
+		\item 
+		¿Qué comando se necesita para usar una función que tenga rango?\\ 
+		Para que una función tenga un rango, primero debe haber una función, junto con su definición, una "i" y si es una lista un "len" para que pueda recorrer la lista 
+		\item 
+		¿Para qué sirve el len?\\
+		Recorre cada valor de una lista
+		\item 
+		¿Qué se hace para que un while pueda ir aumentando 5 veces más que la vez anterior dentro de una función?\\
+		Para que un "while" pueda ir aumentando es necesario que se especifique que la "i" estará aumentando; esto se hace de esta forma:
+		\begin{center}
+			i += 5
+		\end{center}
+		Se coloca el signo + para indicar el aumento
+		\item 
+		¿Qué comando se usa para obtener la estructura del libro en Látex?\\
+		Únicamente es necesario colocar \textbackslash begin\{book\}
+		\item 
+		¿Cómo se escribe un índice en LaTeX?\\
+		Para colocar el índice en LaTeX se debe usar "\textbackslash tableofcontents
+		\item 
+		¿Cómo podemos pensar la estructura de un código para un laberinto?\\
+		Primero debemos entender como es el problema, tomándolo como un laberinto de los que se hacen en papel, debemos tomar en cuenta que si iniciamos en la entrada ypodemos avanzar, el return será "avanza", conforme el programa avance, puede que de pronto se encuentre con la pared, en dicho caso, la siguiente instrucción será checar si se puede bajar, si esto se puede entonces el programa avanzará hacia abajo. 
+		Este proceso se repite, si no se puede caminar hacia abjo, entonces se revisará si se puede hacia la izquierda, etc.
+		Así hasta llegar a la ultima casilla. También se puede ver cada casilla como coordenadas de un plano coordenado.  
+	\end{enumerate}
+
+\end{document}
